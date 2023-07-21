@@ -1,0 +1,873 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+*/
+
+html {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+  tab-size: 4;
+  /* 3 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font family by default.
+2. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+.bg-section1 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 242 226 / var(--tw-bg-opacity));
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-\[1440px\] {
+  max-width: 1440px;
+}
+
+.w-\[916px\] {
+  max-width: 916px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.pt-\[16px\] {
+  padding-top: 16px;
+}
+
+.px-\[135px\] {
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-\[8px\] {
+  gap: 8px;
+}
+
+.gap-\[16px\] {
+  gap: 16px;
+}
+
+.mt-\[550px\] {
+  margin-top: 550px;
+}
+
+.ml-\[1200px\] {
+  margin-left: 1200px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.mt-\[42px\] {
+  margin-top: 42px;
+}
+
+.ml-\[435px\] {
+  margin-left: 435px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.font-\[dmsans\] {
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+
+.ml-\[135px\] {
+  margin-left: 135px;
+}
+
+.text-\[72px\] {
+  font-size: 72px;
+}
+
+.mt-\[259px\] {
+  margin-top: 259px;
+}
+
+.mt-\[490px\] {
+  margin-top: 490px;
+}
+
+.ml-\[1150px\] {
+  margin-left: 1150px;
+}
+
+.h-\[880px\] {
+  height: 880px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.font-biorhyme {
+  font-family: BioRhyme, sans-serif;
+}
+
+.mt-\[132px\] {
+  margin-top: 132px;
+}
+
+.mt-\[74px\] {
+  margin-top: 74px;
+}
+
+.mr-\[135px\] {
+  margin-right: 135px;
+}
+
+.ml-\[1220px\] {
+  margin-left: 1220px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.text-\[72px\] {
+  font-size: 72px;
+}
+
+.mt-\[124px\] {
+  margin-top: 124px;
+}
+
+.ml-\[806px\] {
+  margin-left: 806px;
+}
+
+.mt-\[116px\] {
+  margin-top: 116px;
+}
+
+.ml-\[69px\] {
+  margin-left: 69px;
+}
+
+.w-\[370px\] {
+  width: 370px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.mt-\[160px\] {
+  margin-top: 160px;
+}
+
+.ml-\[135px\] {
+  margin-left: 135px;
+}
+
+.w-\[370px\] {
+  width: 370px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.mt-\[280px\] {
+  margin-top: 280px;
+}
+
+.ml-\[535px\] {
+  margin-left: 535px;
+}
+
+.bg-section2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 198 94 / var(--tw-bg-opacity));
+}
+
+.mt-\[735px\] {
+  margin-top: 735px;
+}
+
+.ml-\[135px\] {
+  margin-left: 135px;
+}
+
+.w-\[370px\] {
+  width: 370px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.mt-\[160px\] {
+  margin-top: 160px;
+}
+
+.ml-\[135px\] {
+  margin-left: 135px;
+}
+
+.p-\[32px\] {
+  padding: 32px;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
+.mt-\[-76px\] {
+  margin-top: -76px;
+}
+
+.mt-\[-20px\] {
+  margin-top: -20px;
+}
+
+.w-\[370px\] {
+  width: 370px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.mt-\[400px\] {
+  margin-top: 400px;
+}
+
+.ml-\[935px\] {
+  margin-left: 935px;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.bg-section4 {
+  background-color: #98a1cb;
+}
+
+.h-\[440px\] {
+  height: 440px;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.p-\[32px\] {
+  padding: 32px;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
+.mt-\[-10px\] {
+  margin-top: -10px;
+}
+
+.mt-\[-131px\] {
+  margin-top: -131px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.text-\[48px\] {
+  font-size: 48px;
+}
+
+.font-\[biorhyme\] {
+  font-family: biorhyme;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.mt-\[259px\] {
+  margin-top: 259px;
+}
+
+.ml-\[935px\] {
+  margin-left: 935px;
+}
+
+.mt-\[206px\] {
+  margin-top: 206px;
+}
+
+.ml-\[1335px\] {
+  margin-left: 1335px;
+}
+
+.p-\[30px\] {
+  padding: 30px;
+}
+
+.bg-red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(221 81 76 / var(--tw-bg-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[72px\] {
+  font-size: 72px;
+}
+
+.text-grey {
+  color: rgba(255, 255, 255, 0.50);
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.w-\[370px\] {
+  width: 370px;
+}
+
+.h-\[464px\] {
+  height: 464px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.w-\[1080px\] {
+  width: 1080px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.mt-\[160px\] {
+  margin-top: 160px;
+}
+
+.ml-\[135px\] {
+  margin-left: 135px;
+}
+
+.text-\[36px\] {
+  font-size: 36px;
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(7 242 199 / var(--tw-bg-opacity));
+}
+
+.rounded-\[15px\] {
+  border-radius: 15px;
+}
+
+.w-\[80px\] {
+  width: 80px;
+}
+
+.h-\[30px\] {
+  height: 30px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.bg-section-footer {
+  background-color: #24201e;
+}
+
+.pw-\[100px\] {
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.pt-\[50px\] {
+  padding-top: 50px;
+}
+
+.pb-\[30px\] {
+  padding-bottom: 30px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.w-\[30\] {
+  width: 30%;
+}
+
+.divide {
+  margin-top: 10px;
+  border-top: 1px solid #fff;
+  opacity: 9.95%;
+}
+
+.font-\[worksans\] {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.font-\[503\] {
+  opacity: 50.3%;
+}
+
+.font-company {
+  margin-top: 40px;
+}
+
+.text-\[w700\] {
+  font-weight: 700;
+}
+
+.mt-\[40px\] {
+  margin-top: 40px;
+}
+
+.mt-\[120px\] {
+  margin-top: 120px;
+}
+
+.mt-\[60px\] {
+  margin-top: 60px;
+}
+
+.mt-\[80px\] {
+  margin-top: 80px;
+}
+
+.line-height-\[32px\] {
+  line-height: 32px;
+}
+
+.line-height-\[56px\] {
+  line-height: 56px;
+}
+
+.line-height-\[64px\] {
+  line-height: 64px;
+}
+
+
+.text-\[56px\] {
+  font-size: 56px;
+}
+
+.w-\[170px\] {
+  width: 170px;
+}
+
+.h-\[48px\] {
+  height: 48px;
+}
+
+.rounded-\[24px\] {
+  border-radius: 24px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.r-\[516px\] {
+  right: 516px;
+}
+
+.t-\[100px\] {
+  top: 100px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.btn-contact {
+  background-color: #95C5C8;
+  font-family: BioRhyme, sans-serif;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 700;
+  line-height: 27.88px;
+}
+
+.ml-\[-288px\] {
+  margin-left: -288px;
+}
+
+.text-desc {
+  color: #333333;
+}
+
+.google {
+  color: #333333;
+  opacity: 50.16%;
+}
+
+.size-\[16px\] {
+  font-size: 16px;
+}
+
+.size-\[24px\] {
+  font-size: 24px;
+}
+
+.b-\[-46px\] {
+  bottom: -46px
+}
+
+.z-index-\[2\] {
+  z-index: 2;
+}
+
+.z-index-\[3\] {
+  z-index: 3;
+}
+
+.z-index-\[1\] {
+  z-index: 1;
+}
+
+.l-\[516px\] {
+  left: 516px;
+}
+
+.b-\[136px\] {
+  bottom: 136px
+}
+
+.b-\[20px\] {
+  bottom: 20px
+}
+
+.r-\[136px\] {
+  right: 136px
+}
+
+.r-\[60px\] {
+  right: 60px;
+}
+
+.r-\[-100px\] {
+  right: -100px;
+}
+
+.t-\[240px\] {
+  top: 240px;
+}
+
+.t-\[260px\] {
+  top: 260px;
+}
+
+.r-\[0px\] {
+  right: 0px;
+}
+
+.r-\[164px\] {
+  right: 164px;
+}
+
+.r-\[476px\] {
+  right: 476px;
+}
+
+.mt-\[92px\] {
+  margin-top: 92px;
+}
+
+.mt-\[72px\] {
+  margin-top: 72px;
+}
+
+.t-\[642px\] {
+  top: 642px;
+}
+
+.w-\[64\] {
+  width: 64%;
+}
+
+.l-\[-72px\] {
+  left: -72px;
+}
+
+.l-\[0px\] {
+  left: 0px;
+}
+
+.pt-\[116px\] {
+  padding-top: 116px;
+}
+
+.text-percent {
+  left: 56px;
+  top: 64px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-title {
+  top: 222px;
+  left: 14px;
+}
+
+.mt-\[-156px\] {
+  margin-top: -156px;
+}
+
+.mt-\[-24px\] {
+  margin-top: -24px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.mt-\[20\] {
+  margin-top: 20px;
+}
+
+.mb-\[80px\] {
+  margin-bottom: 80px;
+}
+
+.r-\[820px\] {
+  right: 820px;
+}
+
+@media (max-width: 1440px) {
+  .pw-\[100px\] {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .r-\[-100px\] {
+    right: -10px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .pw-\[100px\] {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .r-\[-100px\] {
+    right: -10px;
+  }
+
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .r-\[60px\] {
+    right: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .d-flex {
+    flex-direction: column;
+  }
+}
