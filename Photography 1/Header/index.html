@@ -1,0 +1,71 @@
+<header>
+  <nav class="flex items-center justify-between p-6 px-8" aria-label="Global">
+    <a href="#" class="mx-2 p-1.5 flex">
+      <b class="text-2xl">Jonathan</b>
+    </a>
+    <div class="flex lg:hidden">
+      <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+        <span class="sr-only">Open main menu</span>
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </div>
+    <div class="mx-2 flex gap-x-8 hidden-768">
+      <a href="#" class="text-sm font-semibold leading-6">Home</a>
+      <a href="#" class="text-sm font-semibold leading-6">Portfolio</a>
+      <a href="#" class="text-sm font-semibold leading-6">Gallery</a>
+      <a href="#" class="text-sm font-semibold leading-6">Services</a>
+      <a href="#" class="text-sm font-semibold leading-6">FAQ</a>
+    </div>
+    <a href="#" class="hidden-768 rounded-full bg-yellow-300 px-2.5 py-2.5 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Hire me</a>
+  </nav>
+
+  <!-- Mobile menu, show/hide based on menu open state. -->
+  <div class="lg:hidden" role="dialog" aria-modal="true">
+    <!-- Background backdrop, show/hide based on slide-over state. -->
+    <div class="fixed inset-0 z-50"></div>
+    <div
+      class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto px-6 py-6 ">
+      <div class="flex">
+        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+          <span class="sr-only">Close menu</span>
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="mt-6 flow-root">
+        <div class="-my-6 divide-y divide-gray-500/10">
+          <div class="space-y-2 py-6">
+            <a href="#"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50">Home</a>
+            <a href="#"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50">Portfolio</a>
+            <a href="#"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50">Gallery</a>
+            <a href="#"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50">Team</a>
+            <a href="#"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50">Contact</a>
+          </div>
+          <div class="py-6">
+            <a href="#" class="rounded-full bg-yellow-300 px-2.5 py-2.5 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Hire me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="custom-background flex flex-column items-center justify-center">
+  <div class="w-full h-full flex flex-column items-center justify-center px-6 py-32 sm:py-32 gap-x-8 text-white backdrop">
+    <p class="text-lg leading-8">Award Winning Wild Life & Nature Photography</p>
+    <h1 class="mt-10 text-4xl font-bold sm:text-6xl">Jonathan John Doe</h1>
+    <div class="mt-16 flex items-center gap-x-6">
+      <a href="#" class="rounded-full bg-yellow-300 px-6 py-2.5 text-lg text-black font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">See my work</a>
+    </div>
+  </div>
+</section>
