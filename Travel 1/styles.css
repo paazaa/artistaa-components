@@ -16,3 +16,16 @@ section {
   background-size: cover;
   height: 100vh;
 }
+
+.gallery {
+  display: grid;
+  grid-template-areas: 
+  'main main second second'
+  'main main third another';
+  width: 100%;
+}
+
+.item1 { grid-area: main;    }
+.item2 { grid-area: second;  }
+.item3 { grid-area: third;   }
+.item4 { grid-area: another; }
