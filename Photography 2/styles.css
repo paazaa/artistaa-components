@@ -37,3 +37,10 @@ section {
 .item1 { grid-area: left;   }
 .item2 { grid-area: right;  }
 .item3 { grid-area: bottom; }
+
+#featured {
+  background-image: url(./Images/mesr.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
