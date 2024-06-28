@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Slab:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	scroll-behavior: smooth;
+}
+
+.hero {
+	@apply text-white;
+}
+.navbar {
+	@apply text-white font-roboto-slab;
+}
+
+.navbar:hover {
+	@apply text-golden transform scale-105 transition duration-300 ease-in-out;
+	transition-delay: 0.2s;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.navbar-CTA {
+	@apply px-5 text-[16px] py-3 font-medium bg-transparent border border-white uppercase rounded-md  border-opacity-20;
+}
+.navbar-CTA:hover {
+	@apply bg-golden   transition duration-300 ease-in-out;
+}
+
+.section-separator-all-col {
+	@apply flex flex-col justify-center py-6 mx-auto sm:py-16  lg:justify-between text-center lg:text-left gap-y-4 font-manrope text-grey
+}
+
+.card{
+	@apply  lg:w-1/2  rounded-2xl px-8 py-10 text-left  lg:h-[530px] 2xl:h-[600px] 
+}
+.card:hover {
+	@apply shadow-lg transition duration-300 transform scale-105 ease-in-out;
+	animation: card-hover 0.1s ease-in-out;
+}
+
+.card:hover:mouseleave {
+	@apply transition duration-300 transform scale-100 ease-in-out;
+	animation: card-hover 0.1s ease-in-out;
+}
+
+.hamburger {
+	cursor: pointer;
+	width: 24px;
+	height: 24px;
+	transition: all 0.3s ease-in-out;
+	position: relative;
+}
+
+.hamburger-top, .hamburger-middle, .hamburger-bottom {
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 2px;
+	width: 24px;
+	background-color: #fff;
+	transform: rotate(0);
+	transition: all 0.5s ease-in-out;
+}
+
+.hamburger-middle {
+	
+	transform: translateY(7px);
+}
+.hamburger-bottom {
+	
+	transform: translateY(14px);
+}
+
+.open {
+	transform: rotate(90deg);
+	transform: translateY(0px);
+}
+
+.open .hamburger-top {
+	transform: rotate(45deg) translateY(6px) translate(6px);
+	
+}
+
+.open .hamburger-middle {
+	display: none;
+}
+
+
+.open .hamburger-bottom {
+	transform: rotate(-45deg) translateY(6px) translate(-6px);
+	
+}

@@ -1,0 +1,108 @@
+<div href="#home"
+	class="flex mx-auto bg-blue px-12 md:px-28 relative overflow-hidden font-manrope"
+>
+	<img
+		src="./assets/bg-hero-top-left-croped.svg"
+		alt=""
+		class="absolute w-[85%] left-0 md:w-[42%] md:-top-4 2xl:w-[45%] 2xl:-top-16"
+	/>
+	<img
+		src="./assets/bg-hero-bottom-right-croped.svg"
+		alt=""
+		class="absolute lg:bottom-0 -bottom-16 right-0 lg:w-[60%]"
+	/>
+	<div class="flex relative text-white container flex-col mx-auto">
+		<!-- NAV SECTION -->
+		<nav class="relative container p-6">
+			<div class="flex items-center justify-between">
+				<!-- LOGO -->
+				<div class="pt2">
+					<h2 class="uppercase text-3xl md:text-4xl font-manrope font-bold">PTF</h2>
+				</div>
+				<!-- NAV LINKS -->
+				<div class="hidden md:flex gap-x-10 xl:gap-x-14">
+					<a href="#about" class="navbar">About</a>
+					<a href="#service" class="navbar">Portfolio</a>
+					<a href="#blog" class="navbar">Blog</a>
+					<a href="#contact" class="navbar">Contact</a>
+				</div>
+
+				<a href="#" class="navbar-CTA hidden md:block">Contact US</a>
+
+				<!-- Hamburger icon -->
+				 <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+					<span class="hamburger-top"></span>
+					<span class="hamburger-middle"></span>
+					<span class="hamburger-bottom"></span>
+				 </button>
+			</div>
+			<!-- Mobile Menu -->
+			 <div class="lg:hidden z-30">
+				<div id="menu" class="absolute  flex-col items-center self-end text-blue hidden  py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+					<a href="#about" href="#" >About</a>
+					<a href="#service" >Portfolio</a>
+					<a href="#blog" >Blog</a>
+					<a href="#contact" >Contact</a>
+				</div>
+			 </div>
+		</nav>
+		<!-- END OF NAV SECTION -->
+		
+        <!-- HERO SECTION -->
+		<section
+			class="container relative flex flex-col justify-center p-6 mx-auto sm:py-12 lg:flex-row lg:justify-between pt-10 lg:mt-20"
+		>
+			<div
+				class="flex flex-col mb-4 py-6  text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left"
+			>
+				<p
+					class="mt-2 mb-8 text-base lg:text-lg font-medium tracking-wider sm:mb-8 uppercase"
+				>
+					Recent project
+				</p>
+				<h1
+					class="text-5xl  font-bold leading-none sm:text-6xl lg:text-7xl font-manrope"
+				>
+					Marketing Reimagined
+				</h1>
+				<p
+					class="mt-6 mb-8 text-base lg:text-xl sm:mb-12 font-roboto-slab text-justify lg:text-left"
+				>
+					The sky was cloudless and of a deep dark blue the spectacle before us was
+					indeed sublime.
+				</p>
+				<div
+					class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start text-center"
+				>
+					<a
+						rel="noopener noreferrer"
+						href="#"
+						class="px-8 py-3 text-base uppercase font-semibold rounded bg-golden"
+						>READ More</a
+					>
+				</div>
+
+				<div
+					class="flex justify-center lg:justify-start flex-row  lg:my-0 my-8 lg:mt-24"
+				>
+					<div
+						class="flex justify-center mt-1 lg:mt-0 items-center h-9 w-9 md:h-12 md:w-12 border rounded-full border-white/75"
+					>
+						<div class="h-[6px] w-[6px] rounded-full bg-white"></div>
+					</div>
+					<div class="flex justify-center items-center h-12 w-12 rounded-full">
+						<div class="h-[6px] w-[6px] rounded-full bg-white"></div>
+					</div>
+					<div class="flex justify-center items-center h-12 w-12 rounded-full">
+						<div class="h-[6px] w-[6px] rounded-full bg-white"></div>
+					</div>
+				</div>
+			</div>
+			<div
+				class="hidden lg:flex items-center p-6 mt-8 lg:mt-16 h-72 sm:h-80 lg:h-[96] xl:h-112 2xl:h-128 -mr-20"
+			>
+				<img src="./assets/marketing-showed.svg" alt="" class="object-cover" />
+			</div>
+		</section>
+	</div>
+</div>
