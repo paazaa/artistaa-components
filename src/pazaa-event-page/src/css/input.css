@@ -47,6 +47,8 @@ body {
 	animation: card-hover 0.1s ease-in-out;
 }
 
+
+/* START OF HAMBURGER MENU STYLES */
 .hamburger {
 	cursor: pointer;
 	width: 24px;
@@ -94,3 +96,5 @@ body {
 	transform: rotate(-45deg) translateY(6px) translate(-6px);
 	
 }
+
+/* END OF HAMBURGER MENU STYLES */

@@ -3,11 +3,100 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script src="https://cdn.tailwindcss.com"></script>
 		<link rel="stylesheet" href="./css/output.css" />
 		<title>Document</title>
 	</head>
 	<body>
-		<h1 class="text-3xl font-bold underline text-blue-600">Hello Health..</h1>
+		<div class="relative bg-primary">
+			<div
+				class="container text-white mx-auto lg:px-0 relative pt-10 lg:h-screen flex flex-col lg:flex-row justify-between"
+			>
+				<!-- Navbar -->
+				<header class="absolute container">
+					<nav class="">
+						<div class="flex items-center justify-between lg:px-0">
+							<!-- LOGO -->
+
+							<h2 class="uppercase text-3xl md:text-4xl font-bold">DOC</h2>
+
+							<!-- NAV LINKS -->
+							<div class="hidden md:flex gap-x-10 xl:gap-x-14">
+								<a href="#about" class="navbar">About</a>
+								<a href="#service" class="navbar">Services</a>
+								<a href="#blog" class="navbar">Blog</a>
+								<a href="#contact" class="navbar">Contact</a>
+							</div>
+
+							<a href="#" class="navbar-CTA hidden md:block">Appointment</a>
+
+							<!-- Hamburger icon -->
+							<button
+								id="menu-btn"
+								class="block hamburger md:hidden focus:outline-none"
+							>
+								<span class="hamburger-top"></span>
+								<span class="hamburger-middle"></span>
+								<span class="hamburger-bottom"></span>
+							</button>
+						</div>
+						<!-- Mobile Menu -->
+						<div class="lg:hidden z-30 relative">
+							<div
+								id="menu"
+								class="absolute flex-col items-center self-end text-blue hidden py-8 mt-5 space-y-6 font-bold bg-white w-full sm:self-center drop-shadow-md text-secondary"
+							>
+								<a href="#about">About</a>
+								<a href="#service">Portfolio</a>
+								<a href="#blog">Blog</a>
+								<a href="#contact">Contact</a>
+							</div>
+						</div>
+					</nav>
+				</header>
+				<!-- End of Navbar -->
+
+				<!-- Hero content -->
+				<div class="flex flex-col lg:flex-row justify-between mt-20 lg:mt-36 w-full">
+					<div
+						class="w-full lg:w-1/2 container relative flex flex-col justify-between mx-auto sm:py-12 lg:flex-row lg:justify-between pt-10 lg:mt-20 font-epilogue"
+					>
+						<div
+							class="flex flex-col mb-4 py-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left"
+						>
+							<p
+								class="mt-2 mb-8 text-base lg:text-lg font-medium tracking-wider sm:mb-8 uppercase opacity-60"
+							>
+								Doctor
+							</p>
+							<h1
+								class="text-5xl capitalize font-bold leading-none sm:text-6xl lg:text-7xl"
+							>
+								Your Personal Doctor
+							</h1>
+							<p
+								class="mt-6 mb-8 text-base lg:text-xl sm:mb-12 font-lato text-justify lg:text-left"
+							>
+								The sky was cloudless and of a deep dark blue the spectacle before us
+								was indeed sublime.
+							</p>
+							<div
+								class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start text-center"
+							>
+								<a
+									rel="noopener noreferrer"
+									href="#"
+									class="px-8 py-3 text-sm lg:text-base uppercase font-medium rounded bg-secondary hover:bg-secondary-dark"
+									>Make Appointment</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="self-end w-1/2 hidden lg:flex">
+						<img src="./assets/hero.svg" alt="hero-bg" class="h-full" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./js/index.js"></script>
 	</body>
 </html>
