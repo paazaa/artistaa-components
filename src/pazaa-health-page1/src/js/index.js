@@ -8,13 +8,17 @@ function loadHTML(sectionId, filePath) {
 		.catch((error) => console.error('Error loading section:', error))
 }
 loadHTML('hero', 'components/hero.html')
-loadHTML('about', 'components/about.html')
 loadHTML('service', 'components/service.html')
+loadHTML('features', 'components/features.html')
+loadHTML('ask', 'components/ask-anything.html')
 loadHTML('testimonials', 'components/testimonials.html')
-loadHTML('blog', 'components/blog.html')
-loadHTML('get-in-touch', 'components/get-in-touch.html')
 loadHTML('footer', 'components/footer.html')
 
+// loadHTML('testimonials', 'components/testimonials.html')
+// loadHTML('blog', 'components/blog.html')
+// loadHTML('get-in-touch', 'components/get-in-touch.html')
+
+// hamburger menu toggler
 // hamburger menu toggler
 const btn = document.getElementById('menu-btn')
 const nav = document.getElementById('menu')
@@ -23,6 +27,7 @@ btn.addEventListener('click', () => {
 	btn.classList.toggle('open')
 	nav.classList.toggle('flex')
 	nav.classList.toggle('hidden')
+	console.log('clicked')
 })
 
 // scroll animation
