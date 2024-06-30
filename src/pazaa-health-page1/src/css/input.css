@@ -80,3 +80,54 @@ body {
 }
 
 /* END OF HAMBURGER MENU STYLES */
+
+START OF HAMBURGER MENU STYLES
+.hamburger {
+	cursor: pointer;
+	width: 24px;
+	height: 24px;
+	transition: all 0.3s ease-in-out;
+	position: relative;
+}
+
+.hamburger-top, .hamburger-middle, .hamburger-bottom {
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 2px;
+	width: 24px;
+	background-color: #fff;
+	transform: rotate(0);
+	transition: all 0.5s ease-in-out;
+}
+
+.hamburger-middle {
+	
+	transform: translateY(7px);
+}
+.hamburger-bottom {
+	
+	transform: translateY(14px);
+}
+
+.open {
+	transform: rotate(90deg);
+	transform: translateY(0px);
+}
+
+.open .hamburger-top {
+	transform: rotate(45deg) translateY(6px) translate(6px);
+	
+}
+
+.open .hamburger-middle {
+	display: none;
+}
+
+
+.open .hamburger-bottom {
+	transform: rotate(-45deg) translateY(6px) translate(-6px);
+	
+}
+
+/* END OF HAMBURGER MENU STYLES */

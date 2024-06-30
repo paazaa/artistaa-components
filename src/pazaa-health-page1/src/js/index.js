@@ -13,11 +13,9 @@ loadHTML('features', 'components/features.html')
 loadHTML('ask', 'components/ask-anything.html')
 loadHTML('testimonials', 'components/testimonials.html')
 loadHTML('gallery', 'components/gallery.html')
+loadHTML('blog', 'components/blog.html')
+loadHTML('contact', 'components/contact.html')
 loadHTML('footer', 'components/footer.html')
-
-// loadHTML('testimonials', 'components/testimonials.html')
-// loadHTML('blog', 'components/blog.html')
-// loadHTML('get-in-touch', 'components/get-in-touch.html')
 
 // hamburger menu toggler
 // hamburger menu toggler
@@ -28,7 +26,6 @@ btn.addEventListener('click', () => {
 	btn.classList.toggle('open')
 	nav.classList.toggle('flex')
 	nav.classList.toggle('hidden')
-	console.log('clicked')
 })
 
 // scroll animation
