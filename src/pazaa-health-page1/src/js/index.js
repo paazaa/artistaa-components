@@ -12,6 +12,7 @@ loadHTML('service', 'components/service.html')
 loadHTML('features', 'components/features.html')
 loadHTML('ask', 'components/ask-anything.html')
 loadHTML('testimonials', 'components/testimonials.html')
+loadHTML('gallery', 'components/gallery.html')
 loadHTML('footer', 'components/footer.html')
 
 // loadHTML('testimonials', 'components/testimonials.html')
