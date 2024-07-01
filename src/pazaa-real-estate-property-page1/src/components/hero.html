@@ -1,0 +1,85 @@
+<div id="hero-real-estate-1"
+    class=" text-white relative  h-screen bg-cover bg-top lg:bg-center 2xl:bg-right-top bg-no-repeat rounded-bl-[50px]  lg:rounded-bl-[140px]"
+    style="background-image: url('./assets/bg-hero.svg'); ">
+
+    <img src="./assets/icon-scroll-below.svg" alt="icon-scroll-below"
+        class="absolute bottom-14 lg:bottom-10 left-[45%] lg:left-[50%]" />
+
+    <div class="relative px-6 lg:px-0">
+        <div class="container  mx-auto lg:px-0 relative pt-10 md:h-screen flex flex-col lg:flex-row justify-between">
+            <!-- Navbar -->
+            <header class="absolute container">
+                <nav class="">
+                    <div class="flex items-center justify-between  ">
+                        <!-- LOGO -->
+
+                        <h2 class="uppercase text-3xl md:text-4xl font-bold">RE</h2>
+
+                        <!-- NAV LINKS -->
+                        <div class="hidden md:flex gap-x-10 xl:gap-x-14">
+                            <a href="#properties" class="navbar">Properties</a>
+                            <a href="#Agents" class="navbar">Agents</a>
+                            <a href="#blog" class="navbar">Blog</a>
+                            <a href="#contact" class="navbar">Contact</a>
+                        </div>
+
+                        <!-- <a href="#" class="navbar-CTA hidden md:block">Appointments</a> -->
+                        <img src="./assets/icon-profile.svg" alt="profile" class="hidden md:block" />
+
+                        <!-- Hamburger icon -->
+                        <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                            <span class="hamburger-top"></span>
+                            <span class="hamburger-middle"></span>
+                            <span class="hamburger-bottom"></span>
+                        </button>
+                    </div>
+                    <!-- Mobile Menu -->
+                    <div class="lg:hidden ">
+                        <div id="menu"
+                            class="absolute z-20 flex-col items-center self-end text-blue hidden py-8 mt-5 space-y-6  bg-[#F5F5F5]  text-purple-500 w-full sm:self-center drop-shadow-md rounded-b-3xl">
+                            <a href="#properties" class="font-josefin ">Properties</a>
+                            <a href="#Agents" class="font-josefin ">Agents</a>
+                            <a href="#blog" class="font-josefin ">Blog</a>
+                            <a href="#contact" class="font-josefin ">Contact</a>
+                            <a href="#signIn" class="font-josefin ">Sign in</a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!-- End of Navbar -->
+
+            <!-- Hero content -->
+            <div
+                class="flex flex-col lg:m-20 py-[65%] md:py-[30%] lg:py-0 font-kanit items-center  gap-y-12 lg:gap-y-8  justify-center ">
+                <div class="lg:mx-40 xl:mx-64 2xl:mx-[380px]  mx-0 text-center ">
+                    <h1 class="text-[32px] md:text-[60px] xl:text-[72px] font-bold leading-snug lg:leading-none">
+                        Discover a
+                        home for
+                        everyone
+                    </h1>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-x-10 gap-y-8 w-full justify-center items-center">
+                    <div class="relative w-[300px] border-gray-300 text-grey text-xs lg:text-sm text-opacity-60">
+                        <select
+                            class="w-full py-3 px-4 border  font-extralight bg-white rounded-md shadow-sm focus:outline-none  font-josefin appearance-none"
+                            placeholder="Select an option">
+                            <option value="">Rent</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                        <img src="./assets/icon-triangle.svg" alt="search"
+                            class="absolute right-4 top-4 lg:top-5 h-2 " />
+                    </div>
+                    <div class=" w-[300px] relative flex flex-row lg:w-[450px] lg:mr-10 text-xs lg:text-sm">
+                        <input type="text"
+                            class="w-full py-3 px-4 border border-gray-300 text-grey font-extralight bg-white rounded-md shadow-sm focus:outline-none  font-josefin"
+                            placeholder="Search by City, Neighborhood or Address" />
+                        <img src="./assets/icon-search.svg" alt="search" class="absolute right-4 top-3 h-4 lg:h-5" />
+                    </div>
+                </div>
+            </div>
+            <!-- End of Hero content -->
+        </div>
+    </div>
+</div>

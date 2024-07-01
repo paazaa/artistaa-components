@@ -8,7 +8,7 @@ function loadHTML(sectionId, filePath) {
 		.catch((error) => console.error('Error loading section:', error))
 }
 loadHTML('hero', 'components/hero.html')
-// loadHTML('service', 'components/service.html')
+loadHTML('download-real-estate-1', 'components/download.html')
 // loadHTML('features', 'components/features.html')
 // loadHTML('ask', 'components/ask-anything.html')
 // loadHTML('testimonials', 'components/testimonials.html')
