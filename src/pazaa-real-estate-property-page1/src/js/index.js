@@ -15,7 +15,7 @@ loadHTML('hero', 'components/hero.html')
 // loadHTML('gallery', 'components/gallery.html')
 // loadHTML('blog', 'components/blog.html')
 // loadHTML('contact', 'components/contact.html')
-// loadHTML('footer', 'components/footer.html')
+loadHTML('footer', 'components/footer.html')
 
 // hamburger menu toggler
 // hamburger menu toggler
