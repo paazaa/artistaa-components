@@ -12,8 +12,8 @@ module.exports = {
 		},
 		extend: {
 			fontFamily: {
-				epilouge: ['Epilogue', 'serif'],
-				lato: ['Lato', 'sans-serif'],
+				kanit: ['Kanit', 'serif'],
+				josefin: ['Josefin-Sans', 'sans-serif'],
 			},
 			colors: {
 				primary: '#4A56A7',

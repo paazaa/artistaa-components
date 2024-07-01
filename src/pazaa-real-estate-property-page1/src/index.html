@@ -8,8 +8,69 @@
 	<title>Pazaa Real Estate page</title>
 </head>
 
-<body class="bg-secondary text-white">
-	<h1>Pazaa RealEstate</h1>
+<body class="">
+	<div id="hero-real-estate-1"
+		class=" text-white h-screen bg-cover bg-top lg:bg-center 2xl:bg-right-top bg-no-repeat  rounded-bl-[140px]"
+		style="background-image: url('./assets/bg-hero.svg'); ">
+
+		<div class="relative px-6 lg:px-0">
+			<div
+				class="container  mx-auto lg:px-0 relative pt-10 md:h-screen flex flex-col lg:flex-row justify-between">
+				<!-- Navbar -->
+				<header class="absolute container">
+					<nav class="">
+						<div class="flex items-center justify-between  ">
+							<!-- LOGO -->
+
+							<h2 class="uppercase text-3xl md:text-4xl font-bold">RE</h2>
+
+							<!-- NAV LINKS -->
+							<div class="hidden md:flex gap-x-10 xl:gap-x-14">
+								<a href="#properties" class="navbar">Properties</a>
+								<a href="#Agents" class="navbar">Agents</a>
+								<a href="#blog" class="navbar">Blog</a>
+								<a href="#contact" class="navbar">Contact</a>
+							</div>
+
+							<!-- <a href="#" class="navbar-CTA hidden md:block">Appointments</a> -->
+							<img src="./assets/icon-profile.svg" alt="profile" class="hidden md:block" />
+
+							<!-- Hamburger icon -->
+							<button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+								<span class="hamburger-top"></span>
+								<span class="hamburger-middle"></span>
+								<span class="hamburger-bottom"></span>
+							</button>
+						</div>
+						<!-- Mobile Menu -->
+						<div class="lg:hidden ">
+							<div id="menu"
+								class="absolute z-20 flex-col items-center self-end text-blue hidden py-8 mt-5 space-y-6 font-bold bg-[#F5F5F5]  text-purple-500 w-full sm:self-center drop-shadow-md rounded-b-3xl">
+								<a href="#properties" class="font-josefin font-extralight">Properties</a>
+								<a href="#Agents" class="font-josefin font-extralight">Agents</a>
+								<a href="#blog" class="font-josefin font-extralight">Blog</a>
+								<a href="#contact" class="font-josefin font-extralight">Contact</a>
+								<a href="#signIn" class="font-josefin font-extralight">Sign in</a>
+							</div>
+						</div>
+					</nav>
+				</header>
+				<!-- End of Navbar -->
+
+				<!-- Hero content -->
+				<div class="flex flex-col lg:m-20 my-[45%] font-kanit items-center  justify-center gap-y-4">
+					<div class="lg:mx-64 mx-0 text-center ">
+						<h1 class="text-[32px] lg:text-[72px] font-bold leading-snug lg:leading-none">Discover a home
+							for everyone</h1>
+					</div>
+					<div class="lg:mx-64 mx-0 text-center ">
+						<h1 class=" font-bold leading-snug lg:leading-none">Discover a home
+							for everyone</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script src="js/index.js"></script>
 </body>
 
