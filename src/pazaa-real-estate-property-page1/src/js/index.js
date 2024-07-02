@@ -9,6 +9,7 @@ function loadHTML(sectionId, filePath) {
 }
 loadHTML('hero', 'components/hero.html')
 loadHTML('download-real-estate-1', 'components/download.html')
+loadHTML('download-real-estate-1', 'components/sell.html')
 // loadHTML('features', 'components/features.html')
 // loadHTML('ask', 'components/ask-anything.html')
 // loadHTML('testimonials', 'components/testimonials.html')
