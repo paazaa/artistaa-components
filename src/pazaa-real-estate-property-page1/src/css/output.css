@@ -648,6 +648,46 @@ video {
   margin-right: auto;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mx-20{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.mx-10{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-8{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.my-12{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.my-28{
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.my-14{
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.my-16{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .mt-5{
   margin-top: 1.25rem;
 }
@@ -694,6 +734,22 @@ video {
 
 .mt-20{
   margin-top: 5rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
+.mt-\[50\%\]{
+  margin-top: 50%;
+}
+
+.mt-16{
+  margin-top: 4rem;
+}
+
+.mt-28{
+  margin-top: 7rem;
 }
 
 .block{
@@ -780,6 +836,18 @@ video {
   height: 100%;
 }
 
+.h-1\/2{
+  height: 50%;
+}
+
+.h-\[300px\]{
+  height: 300px;
+}
+
+.h-\[400px\]{
+  height: 400px;
+}
+
 .w-\[300px\]{
   width: 300px;
 }
@@ -844,6 +912,18 @@ video {
   width: 180px;
 }
 
+.w-16{
+  width: 4rem;
+}
+
+.w-20{
+  width: 5rem;
+}
+
+.w-24{
+  width: 6rem;
+}
+
 .scroll-pl-32{
   scroll-padding-left: 8rem;
 }
@@ -864,6 +944,10 @@ video {
 
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-rows-2{
@@ -904,6 +988,14 @@ video {
 
 .gap-8{
   gap: 2rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
 }
 
 .gap-x-10{
@@ -960,6 +1052,23 @@ video {
        column-gap: 1.5rem;
 }
 
+.gap-x-2{
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
+.gap-y-10{
+  row-gap: 2.5rem;
+}
+
+.gap-y-16{
+  row-gap: 4rem;
+}
+
+.gap-y-14{
+  row-gap: 3.5rem;
+}
+
 .space-y-6 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -998,9 +1107,23 @@ video {
   border-radius: 0.125rem;
 }
 
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
 .rounded-b-3xl{
   border-bottom-right-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
+}
+
+.rounded-b-lg{
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-t-lg{
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .rounded-bl-\[50px\]{
@@ -1050,6 +1173,11 @@ video {
 .border-slate-200{
   --tw-border-opacity: 1;
   border-color: rgb(226 232 240 / var(--tw-border-opacity));
+}
+
+.border-primaryMedium{
+  --tw-border-opacity: 1;
+  border-color: rgb(96 138 237 / var(--tw-border-opacity));
 }
 
 .bg-\[\#F5F5F5\]{
@@ -1127,12 +1255,21 @@ video {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
+.bg-bgGreyMedium{
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
 .bg-cover{
   background-size: cover;
 }
 
 .bg-contain{
   background-size: contain;
+}
+
+.bg-auto{
+  background-size: auto;
 }
 
 .bg-top{
@@ -1170,6 +1307,14 @@ video {
 
 .p-6{
   padding: 1.5rem;
+}
+
+.p-12{
+  padding: 3rem;
+}
+
+.p-8{
+  padding: 2rem;
 }
 
 .px-4{
@@ -1291,6 +1436,10 @@ video {
   padding-top: 5%;
 }
 
+.pb-20{
+  padding-bottom: 5rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1359,6 +1508,14 @@ video {
   line-height: 1.5rem;
 }
 
+.text-\[20px\]{
+  font-size: 20px;
+}
+
+.text-\[30px\]{
+  font-size: 30px;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1377,6 +1534,10 @@ video {
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-thin{
+  font-weight: 100;
 }
 
 .uppercase{
@@ -1401,6 +1562,10 @@ video {
 
 .leading-normal{
   line-height: 1.5;
+}
+
+.leading-tight{
+  line-height: 1.25;
 }
 
 .tracking-wide{
@@ -1443,6 +1608,11 @@ video {
   color: rgb(51 51 51 / 0.5);
 }
 
+.text-primaryMedium{
+  --tw-text-opacity: 1;
+  color: rgb(96 138 237 / var(--tw-text-opacity));
+}
+
 .text-opacity-60{
   --tw-text-opacity: 0.6;
 }
@@ -1473,6 +1643,10 @@ video {
 
 .opacity-65{
   opacity: 0.65;
+}
+
+.opacity-85{
+  opacity: 0.85;
 }
 
 .shadow-sm{
@@ -1721,6 +1895,32 @@ START OF HAMBURGER MENU STYLES
     height: 100vh;
   }
 
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:gap-4{
+    gap: 1rem;
+  }
+
+  .md\:gap-10{
+    gap: 2.5rem;
+  }
+
+  .md\:gap-y-10{
+    row-gap: 2.5rem;
+  }
+
+  .md\:gap-x-4{
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+
+  .md\:gap-x-8{
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+
   .md\:px-28{
     padding-left: 7rem;
     padding-right: 7rem;
@@ -1830,6 +2030,21 @@ START OF HAMBURGER MENU STYLES
     margin-right: 10rem;
   }
 
+  .lg\:my-28{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
+  .lg\:my-20{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .lg\:my-24{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
   .lg\:mr-10{
     margin-right: 2.5rem;
   }
@@ -1852,6 +2067,22 @@ START OF HAMBURGER MENU STYLES
 
   .lg\:mt-20{
     margin-top: 5rem;
+  }
+
+  .lg\:mb-0{
+    margin-bottom: 0px;
+  }
+
+  .lg\:mt-28{
+    margin-top: 7rem;
+  }
+
+  .lg\:mt-10{
+    margin-top: 2.5rem;
+  }
+
+  .lg\:mt-8{
+    margin-top: 2rem;
   }
 
   .lg\:block{
@@ -1878,6 +2109,14 @@ START OF HAMBURGER MENU STYLES
     height: 100vh;
   }
 
+  .lg\:h-\[448px\]{
+    height: 448px;
+  }
+
+  .lg\:h-\[368px\]{
+    height: 368px;
+  }
+
   .lg\:w-\[450px\]{
     width: 450px;
   }
@@ -1894,6 +2133,22 @@ START OF HAMBURGER MENU STYLES
     width: 200px;
   }
 
+  .lg\:w-40{
+    width: 10rem;
+  }
+
+  .lg\:w-\[100px\]{
+    width: 100px;
+  }
+
+  .lg\:w-\[120px\]{
+    width: 120px;
+  }
+
+  .lg\:w-\[80px\]{
+    width: 80px;
+  }
+
   .lg\:max-w-md{
     max-width: 28rem;
   }
@@ -1906,8 +2161,20 @@ START OF HAMBURGER MENU STYLES
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-5{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
   .lg\:grid-rows-1{
     grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+
+  .lg\:grid-rows-2{
+    grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:flex-row{
@@ -1924,6 +2191,26 @@ START OF HAMBURGER MENU STYLES
 
   .lg\:justify-start{
     justify-content: flex-start;
+  }
+
+  .lg\:gap-10{
+    gap: 2.5rem;
+  }
+
+  .lg\:gap-8{
+    gap: 2rem;
+  }
+
+  .lg\:gap-6{
+    gap: 1.5rem;
+  }
+
+  .lg\:gap-0{
+    gap: 0px;
+  }
+
+  .lg\:gap-14{
+    gap: 3.5rem;
   }
 
   .lg\:gap-y-8{
@@ -1950,6 +2237,24 @@ START OF HAMBURGER MENU STYLES
          column-gap: 2.5rem;
   }
 
+  .lg\:gap-x-2{
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+  }
+
+  .lg\:gap-y-14{
+    row-gap: 3.5rem;
+  }
+
+  .lg\:gap-x-8{
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+
+  .lg\:gap-y-10{
+    row-gap: 2.5rem;
+  }
+
   .lg\:space-x-4 > :not([hidden]) ~ :not([hidden]){
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -1970,6 +2275,10 @@ START OF HAMBURGER MENU STYLES
 
   .lg\:bg-center{
     background-position: center;
+  }
+
+  .lg\:p-12{
+    padding: 3rem;
   }
 
   .lg\:px-0{
@@ -2002,8 +2311,17 @@ START OF HAMBURGER MENU STYLES
     padding-right: 12rem;
   }
 
+  .lg\:px-28{
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
   .lg\:pt-\[15\%\]{
     padding-top: 15%;
+  }
+
+  .lg\:pb-32{
+    padding-bottom: 8rem;
   }
 
   .lg\:text-left{
@@ -2061,6 +2379,18 @@ START OF HAMBURGER MENU STYLES
     font-size: 18px;
   }
 
+  .lg\:text-\[25px\]{
+    font-size: 25px;
+  }
+
+  .lg\:text-\[40px\]{
+    font-size: 40px;
+  }
+
+  .lg\:text-\[20px\]{
+    font-size: 20px;
+  }
+
   .lg\:leading-none{
     line-height: 1;
   }
@@ -2068,12 +2398,23 @@ START OF HAMBURGER MENU STYLES
   .lg\:text-\[18\]{
     color: 18;
   }
+
+  @media (min-width: 1280px){
+    .lg\:xl\:text-\[56px\]{
+      font-size: 56px;
+    }
+  }
 }
 
 @media (min-width: 1280px){
   .xl\:mx-64{
     margin-left: 16rem;
     margin-right: 16rem;
+  }
+
+  .xl\:mx-72{
+    margin-left: 18rem;
+    margin-right: 18rem;
   }
 
   .xl\:gap-x-14{
@@ -2122,7 +2463,15 @@ START OF HAMBURGER MENU STYLES
     margin-right: 380px;
   }
 
+  .\32xl\:mt-\[40\%\]{
+    margin-top: 40%;
+  }
+
   .\32xl\:bg-right-top{
     background-position: right top;
+  }
+
+  .\32xl\:pl-20{
+    padding-left: 5rem;
   }
 }
