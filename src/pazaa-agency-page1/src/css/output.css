@@ -573,6 +573,11 @@ video {
   color: rgb(74 86 167 / var(--tw-text-opacity));
 }
 
+.text-secondaryDark {
+  --tw-text-opacity: 1;
+  color: rgb(249 104 134 / var(--tw-text-opacity));
+}
+
 body {
   scroll-behavior: smooth;
   /* @apply font-kanit; */
