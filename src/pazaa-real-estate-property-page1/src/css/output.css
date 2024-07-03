@@ -800,6 +800,10 @@ video {
   margin-bottom: 5rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
 .block{
   display: block;
 }
@@ -940,6 +944,26 @@ video {
   height: 400p;
 }
 
+.h-\[660px\]{
+  height: 660px;
+}
+
+.h-\[60\%\]{
+  height: 60%;
+}
+
+.h-\[40\%\]{
+  height: 40%;
+}
+
+.h-\[30\%\]{
+  height: 30%;
+}
+
+.h-\[70\%\]{
+  height: 70%;
+}
+
 .min-h-screen{
   min-height: 100vh;
 }
@@ -1060,6 +1084,10 @@ video {
   width: 90px;
 }
 
+.w-4{
+  width: 1rem;
+}
+
 .-translate-y-10{
   --tw-translate-y: -2.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1082,6 +1110,11 @@ video {
 
 .-translate-y-32{
   --tw-translate-y: -8rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-20{
+  --tw-translate-y: -5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1131,6 +1164,10 @@ video {
   grid-template-columns: 300px;
 }
 
+.grid-cols-\[400px\]{
+  grid-template-columns: 400px;
+}
+
 .grid-rows-2{
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
@@ -1153,6 +1190,10 @@ video {
 
 .items-start{
   align-items: flex-start;
+}
+
+.items-end{
+  align-items: flex-end;
 }
 
 .items-center{
@@ -1601,6 +1642,10 @@ video {
   padding: 0.75rem;
 }
 
+.p-4{
+  padding: 1rem;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1775,6 +1820,14 @@ video {
 
 .pb-6{
   padding-bottom: 1.5rem;
+}
+
+.pb-8{
+  padding-bottom: 2rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
 }
 
 .text-left{
@@ -2293,8 +2346,20 @@ START OF HAMBURGER MENU STYLES
     grid-template-columns: 300px 300px;
   }
 
+  .md\:grid-cols-\[320px_320px\]{
+    grid-template-columns: 320px 320px;
+  }
+
+  .md\:grid-cols-\[380px_380px\]{
+    grid-template-columns: 380px 380px;
+  }
+
   .md\:items-start{
     align-items: flex-start;
+  }
+
+  .md\:items-end{
+    align-items: flex-end;
   }
 
   .md\:items-center{
@@ -2513,6 +2578,10 @@ START OF HAMBURGER MENU STYLES
     display: inline-block;
   }
 
+  .lg\:flex{
+    display: flex;
+  }
+
   .lg\:grid{
     display: grid;
   }
@@ -2595,6 +2664,14 @@ START OF HAMBURGER MENU STYLES
 
   .lg\:h-\[650px\]{
     height: 650px;
+  }
+
+  .lg\:h-\[500px\]{
+    height: 500px;
+  }
+
+  .lg\:h-\[550px\]{
+    height: 550px;
   }
 
   .lg\:min-h-screen{
