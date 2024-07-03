@@ -8,6 +8,10 @@ function loadHTML(sectionId, filePath) {
 		.catch((error) => console.error('Error loading section:', error))
 }
 loadHTML('hero', 'components/hero.html')
+loadHTML(
+	'featured-properties-real-estate-1',
+	'components/featured-properties.html'
+)
 loadHTML('services-real-estate-1', 'components/services.html')
 loadHTML('explore-real-estate-1', 'components/explore.html')
 loadHTML('sell-real-estate-1', 'components/sell.html')
