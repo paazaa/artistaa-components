@@ -11,12 +11,8 @@ loadHTML('hero', 'components/hero.html')
 loadHTML('services-real-estate-1', 'components/services.html')
 loadHTML('explore-real-estate-1', 'components/explore.html')
 loadHTML('sell-real-estate-1', 'components/sell.html')
+loadHTML('featured-agents-real-estate-1', 'components/featured-agents.html')
 loadHTML('download-real-estate-1', 'components/download.html')
-// loadHTML('ask', 'components/ask-anything.html')
-// loadHTML('testimonials', 'components/testimonials.html')
-// loadHTML('gallery', 'components/gallery.html')
-// loadHTML('blog', 'components/blog.html')
-// loadHTML('contact', 'components/contact.html')
 loadHTML('footer', 'components/footer.html')
 
 // hamburger menu toggler
