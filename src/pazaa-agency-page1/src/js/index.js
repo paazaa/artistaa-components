@@ -12,13 +12,10 @@ function loadHTML(sectionId, filePath) {
 // 	'services-agency-page-1',
 // 	'components/services.html'
 // )
+loadHTML('services', 'components/services.html')
 loadHTML('portfolio', 'components/portfolio.html')
+loadHTML('features', 'components/features.html')
 loadHTML('testimonials', 'components/testimonials.html')
-// loadHTML('services-real-estate-1', 'components/services.html')
-// loadHTML('explore-real-estate-1', 'components/explore.html')
-// loadHTML('sell-real-estate-1', 'components/sell.html')
-// loadHTML('featured-agents-real-estate-1', 'components/featured-agents.html')
-// loadHTML('download-real-estate-1', 'components/download.html')
 loadHTML('footer', 'components/footer.html')
 
 // hamburger menu toggler
