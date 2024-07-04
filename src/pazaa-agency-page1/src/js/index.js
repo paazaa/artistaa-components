@@ -12,6 +12,7 @@ function loadHTML(sectionId, filePath) {
 // 	'services-agency-page-1',
 // 	'components/services.html'
 // )
+loadHTML('portfolio', 'components/portfolio.html')
 loadHTML('testimonials', 'components/testimonials.html')
 // loadHTML('services-real-estate-1', 'components/services.html')
 // loadHTML('explore-real-estate-1', 'components/explore.html')
