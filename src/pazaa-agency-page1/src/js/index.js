@@ -17,7 +17,7 @@ loadHTML(
 // loadHTML('sell-real-estate-1', 'components/sell.html')
 // loadHTML('featured-agents-real-estate-1', 'components/featured-agents.html')
 // loadHTML('download-real-estate-1', 'components/download.html')
-// loadHTML('footer', 'components/footer.html')
+loadHTML('footer', 'components/footer.html')
 
 // hamburger menu toggler
 // hamburger menu toggler
