@@ -13,6 +13,7 @@ function loadHTML(sectionId, filePath) {
 // 	'components/services.html'
 // )
 loadHTML('services', 'components/services.html')
+loadHTML('kickoff', 'components/kickoff.html')
 loadHTML('portfolio', 'components/portfolio.html')
 loadHTML('features', 'components/features.html')
 loadHTML('testimonials', 'components/testimonials.html')
