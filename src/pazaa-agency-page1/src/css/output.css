@@ -2465,6 +2465,10 @@ body {
     padding-bottom: 6rem;
   }
 
+  .lg\:pt-24{
+    padding-top: 6rem;
+  }
+
   .lg\:text-left{
     text-align: left;
   }
