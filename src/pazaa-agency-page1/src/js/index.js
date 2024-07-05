@@ -17,6 +17,7 @@ loadHTML('kickoff', 'components/kickoff.html')
 loadHTML('portfolio', 'components/portfolio.html')
 loadHTML('features', 'components/features.html')
 loadHTML('testimonials', 'components/testimonials.html')
+loadHTML('team', 'components/team.html')
 loadHTML('footer', 'components/footer.html')
 
 // hamburger menu toggler
