@@ -631,6 +631,10 @@ video {
   z-index: 40;
 }
 
+.-z-10{
+  z-index: -10;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -639,6 +643,26 @@ video {
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.-mx-16{
+  margin-left: -4rem;
+  margin-right: -4rem;
+}
+
+.-mx-10{
+  margin-left: -2.5rem;
+  margin-right: -2.5rem;
+}
+
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mb-10{
@@ -691,6 +715,26 @@ video {
 
 .mt-8{
   margin-top: 2rem;
+}
+
+.-mt-10{
+  margin-top: -2.5rem;
+}
+
+.-mt-6{
+  margin-top: -1.5rem;
+}
+
+.-mt-4{
+  margin-top: -1rem;
+}
+
+.mb-20{
+  margin-bottom: 5rem;
+}
+
+.mb-32{
+  margin-bottom: 8rem;
 }
 
 .block{
@@ -757,6 +801,22 @@ video {
   width: 100%;
 }
 
+.w-\[70\%\]{
+  width: 70%;
+}
+
+.w-\[80\%\]{
+  width: 80%;
+}
+
+.w-1\/3{
+  width: 33.333333%;
+}
+
+.w-\[30\%\]{
+  width: 30%;
+}
+
 .cursor-pointer{
   cursor: pointer;
 }
@@ -785,12 +845,24 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.place-items-start{
+  place-items: start;
+}
+
 .items-start{
   align-items: flex-start;
 }
 
 .items-center{
   align-items: center;
+}
+
+.justify-start{
+  justify-content: flex-start;
 }
 
 .justify-end{
@@ -805,12 +877,20 @@ video {
   justify-content: space-between;
 }
 
+.justify-around{
+  justify-content: space-around;
+}
+
 .gap-4{
   gap: 1rem;
 }
 
 .gap-6{
   gap: 1.5rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .gap-x-10{
@@ -925,6 +1005,16 @@ video {
 .bg-green-300{
   --tw-bg-opacity: 1;
   background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+}
+
+.bg-green-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
 .bg-cover{
@@ -1140,6 +1230,14 @@ video {
   line-height: 2;
 }
 
+.leading-tight{
+  line-height: 1.25;
+}
+
+.leading-snug{
+  line-height: 1.375;
+}
+
 .tracking-wide{
   letter-spacing: 0.025em;
 }
@@ -1188,6 +1286,12 @@ video {
 .shadow-2xl{
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl{
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -1448,6 +1552,22 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-\[300px_300px\]{
+    grid-template-columns: 300px 300px;
+  }
+
+  .md\:grid-cols-\[200px_200px\]{
+    grid-template-columns: 200px 200px;
+  }
+
+  .md\:grid-cols-1{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-6{
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+  }
+
   .md\:gap-y-2{
     row-gap: 0.5rem;
   }
@@ -1488,6 +1608,10 @@ body {
 
   .lg\:mt-28{
     margin-top: 7rem;
+  }
+
+  .lg\:mt-10{
+    margin-top: 2.5rem;
   }
 
   .lg\:inline{
@@ -1550,6 +1674,22 @@ body {
     width: 60%;
   }
 
+  .lg\:w-full{
+    width: 100%;
+  }
+
+  .lg\:w-\[50\%\]{
+    width: 50%;
+  }
+
+  .lg\:w-\[45\%\]{
+    width: 45%;
+  }
+
+  .lg\:w-\[30\%\]{
+    width: 30%;
+  }
+
   .lg\:grid-cols-5{
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
@@ -1560,6 +1700,14 @@ body {
 
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-\[250px_250px_250px\]{
+    grid-template-columns: 250px 250px 250px;
+  }
+
+  .lg\:grid-cols-\[200px_200px_200px\]{
+    grid-template-columns: 200px 200px 200px;
   }
 
   .lg\:grid-rows-2{
@@ -1727,6 +1875,14 @@ body {
     .\32xl\:lg\:grid-cols-\[450px_450px_450px\]{
       grid-template-columns: 450px 450px 450px;
     }
+  }
+
+  .\32xl\:w-\[10\%\]{
+    width: 10%;
+  }
+
+  .\32xl\:w-\[15\%\]{
+    width: 15%;
   }
 
   .\32xl\:gap-20{
