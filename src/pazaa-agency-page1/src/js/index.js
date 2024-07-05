@@ -7,11 +7,7 @@ function loadHTML(sectionId, filePath) {
 		})
 		.catch((error) => console.error('Error loading section:', error))
 }
-// loadHTML('hero', 'components/hero.html')
-// loadHTML(
-// 	'services-agency-page-1',
-// 	'components/services.html'
-// )
+
 loadHTML('services', 'components/services.html')
 loadHTML('kickoff', 'components/kickoff.html')
 loadHTML('portfolio', 'components/portfolio.html')
@@ -19,6 +15,7 @@ loadHTML('features', 'components/features.html')
 loadHTML('testimonials', 'components/testimonials.html')
 loadHTML('team', 'components/team.html')
 loadHTML('blog', 'components/blog.html')
+loadHTML('connect', 'components/connect.html')
 loadHTML('footer', 'components/footer.html')
 
 // hamburger menu toggler
