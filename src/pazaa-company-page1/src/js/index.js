@@ -16,7 +16,7 @@ function loadHTML(sectionId, filePath) {
 // loadHTML('team', 'components/team.html')
 // loadHTML('blog', 'components/blog.html')
 // loadHTML('connect', 'components/connect.html')
-// loadHTML('footer', 'components/footer.html')
+loadHTML('footer', 'sections/footer.html')
 
 // hamburger menu toggler
 
