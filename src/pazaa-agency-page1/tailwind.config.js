@@ -12,8 +12,8 @@ module.exports = {
 		},
 		extend: {
 			fontFamily: {
-				'inria-serif': ['Inria-Serif', 'serif'],
-				'open-sans': ['Open-Sans', 'sans-serif'],
+				'inria-serif': ['Inria Serif', 'serif'],
+				'open-sans': ['Open Sans', 'sans-serif'],
 			},
 			colors: {
 				primary: '#131B42',
