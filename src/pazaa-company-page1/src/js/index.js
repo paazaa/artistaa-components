@@ -9,6 +9,7 @@ function loadHTML(sectionId, filePath) {
 }
 
 loadHTML('about', 'sections/about.html')
+loadHTML('features', 'sections/features.html')
 loadHTML('footer', 'sections/footer.html')
 
 // hamburger menu toggler
