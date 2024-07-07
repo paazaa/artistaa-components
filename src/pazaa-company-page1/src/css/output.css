@@ -2056,6 +2056,14 @@ body {
     height: 460px;
   }
 
+  .lg\:h-\[400px\]{
+    height: 400px;
+  }
+
+  .lg\:h-\[380px\]{
+    height: 380px;
+  }
+
   .lg\:min-h-screen{
     min-height: 100vh;
   }
