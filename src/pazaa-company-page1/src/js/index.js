@@ -12,6 +12,7 @@ loadHTML('about', 'sections/about.html')
 loadHTML('features', 'sections/features.html')
 loadHTML('portfolio', 'sections/portfolio.html')
 loadHTML('services', 'sections/services.html')
+loadHTML('team', 'sections/team.html')
 loadHTML('testimonials', 'sections/testimonials.html')
 loadHTML('footer', 'sections/footer.html')
 
