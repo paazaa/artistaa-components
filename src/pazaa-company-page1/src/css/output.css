@@ -1889,6 +1889,10 @@ body {
     display: none;
   }
 
+  .md\:h-\[300px\]{
+    height: 300px;
+  }
+
   .md\:w-1\/2{
     width: 50%;
   }
@@ -1908,6 +1912,10 @@ body {
   .md\:px-28{
     padding-left: 7rem;
     padding-right: 7rem;
+  }
+
+  .md\:pt-20{
+    padding-top: 5rem;
   }
 
   .md\:text-left{
@@ -2218,6 +2226,14 @@ body {
     padding-right: 11rem;
   }
 
+  .lg\:pr-32{
+    padding-right: 8rem;
+  }
+
+  .lg\:pr-24{
+    padding-right: 6rem;
+  }
+
   .lg\:text-left{
     text-align: left;
   }
@@ -2293,11 +2309,19 @@ body {
     -moz-column-gap: 3.5rem;
          column-gap: 3.5rem;
   }
+
+  .xl\:pr-44{
+    padding-right: 11rem;
+  }
 }
 
 @media (min-width: 1536px){
   .\32xl\:right-64{
     right: 16rem;
+  }
+
+  .\32xl\:-top-5{
+    top: -1.25rem;
   }
 
   .\32xl\:w-\[80\%\]{
