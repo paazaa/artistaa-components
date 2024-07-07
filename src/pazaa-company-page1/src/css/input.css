@@ -10,7 +10,7 @@
 
 body {
 	scroll-behavior: smooth;
-	/* @apply font-kanit; */
+	@apply text-grey font-hind-siliguri;
 }
 
 .hero {
