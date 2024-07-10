@@ -7,17 +7,17 @@ function loadHTML(sectionId, filePath) {
 		})
 		.catch((error) => console.error('Error loading section:', error))
 }
-loadHTML('hero', 'components/hero.html')
+loadHTML('hero', 'sections/hero.html')
 loadHTML(
 	'featured-properties-real-estate-1',
-	'components/featured-properties.html'
+	'sections/featured-properties.html'
 )
-loadHTML('services-real-estate-1', 'components/services.html')
-loadHTML('explore-real-estate-1', 'components/explore.html')
-loadHTML('sell-real-estate-1', 'components/sell.html')
-loadHTML('featured-agents-real-estate-1', 'components/featured-agents.html')
-loadHTML('download-real-estate-1', 'components/download.html')
-loadHTML('footer', 'components/footer.html')
+loadHTML('services-real-estate-1', 'sections/services.html')
+loadHTML('explore-real-estate-1', 'sections/explore.html')
+loadHTML('sell-real-estate-1', 'sections/sell.html')
+loadHTML('featured-agents-real-estate-1', 'sections/featured-agents.html')
+loadHTML('download-real-estate-1', 'sections/download.html')
+loadHTML('footer', 'sections/footer.html')
 
 // hamburger menu toggler
 // hamburger menu toggler
