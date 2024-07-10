@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 0 5%;
+}
+
+#featured, #CTA {
+  background-color: #FFF6F1;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-areas: 
+    'left center right';
+}
+
+.item-left   { grid-area: 'left';   }
+.item-center { grid-area: 'center'; }
+.item-right  { grid-area: 'right';  }
+
+#footer {
+  background-color: #1A1A1A;
+}
