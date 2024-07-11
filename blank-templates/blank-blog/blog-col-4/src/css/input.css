@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	scroll-behavior: smooth;
+	@apply font-dm-sans;
+}
+
+.hero {
+	@apply bg-gray text-white font-dm-sans   text-[24px];
+}
+
+.hero-content {
+	@apply relative z-0 px-6 lg:px-0 w-full flex flex-col justify-center gap-y-5 lg:gap-y-10 items-center sm:py-12 my-14 lg:my-8 mt-24  lg:mt-16 2xl:mt-24
+}
+.heading {
+	@apply text-4xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold tracking-wider
+}
+
+.filter {
+	@apply text-grayLight cursor-pointer text-sm lg:text-base
+}
+
+.filter.active {
+	@apply text-gray
+}
+.sub-heading {
+	@apply text-sm lg:text-base text-white opacity-50
+}
+.navbar {
+	@apply text-white font-dm-sans text-base font-extralight ;
+}
+
+.navbar:hover {
+	/* @apply text-secondary transform scale-105 transition duration-300 ease-in-out; */
+	transition-delay: 0.2s;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.navbar-CTA {
+	@apply px-5 font-dm-sans font-bold text-sm  lg:text-[16px] text-white py-3  bg-transparent border border-white uppercase rounded-md  border-opacity-20;
+}
+.navbar-CTA:hover {
+	/* @apply bg-secondary text-white   transition duration-300 ease-in-out; */
+}
+
+
+.hover:scale-animation:hover {
+	@apply transform scale-105 transition duration-300 ease-in-out;
+	transition-delay: 0.2s;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+
+/* START OF HAMBURGER MENU STYLES */
+.hamburger {
+	cursor: pointer;
+	width: 24px;
+	height: 24px;
+	transition: all 0.3s ease-in-out;
+	position: relative;
+}
+
+.hamburger-top, .hamburger-middle, .hamburger-bottom {
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 2px;
+	width: 24px;
+	background-color: #fff;
+	transform: rotate(0);
+	transition: all 0.5s ease-in-out;
+}
+
+.hamburger-middle {
+	
+	transform: translateY(7px);
+}
+.hamburger-bottom {
+	
+	transform: translateY(14px);
+}
+
+.open {
+	transform: rotate(90deg);
+	transform: translateY(0px);
+}
+
+.open .hamburger-top {
+	transform: rotate(45deg) translateY(6px) translate(6px);
+	
+}
+
+.open .hamburger-middle {
+	display: none;
+}
+
+
+.open .hamburger-bottom {
+	transform: rotate(-45deg) translateY(6px) translate(-6px);
+	
+}
+/* END OF HAMBURGER MENU STYLES */
