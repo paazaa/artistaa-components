@@ -604,24 +604,16 @@ video {
   position: relative;
 }
 
+.left-4{
+  left: 1rem;
+}
+
 .right-3{
   right: 0.75rem;
 }
 
 .top-3{
   top: 0.75rem;
-}
-
-.left-2{
-  left: 0.5rem;
-}
-
-.top-2{
-  top: 0.5rem;
-}
-
-.left-4{
-  left: 1rem;
 }
 
 .top-4{
@@ -665,6 +657,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-20{
+  margin-top: 5rem;
+}
+
 .mt-4{
   margin-top: 1rem;
 }
@@ -673,8 +669,8 @@ video {
   margin-top: 1.5rem;
 }
 
-.mt-20{
-  margin-top: 5rem;
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .block{
@@ -717,6 +713,10 @@ video {
   height: 2rem;
 }
 
+.h-\[210px\]{
+  height: 210px;
+}
+
 .h-\[300px\]{
   height: 300px;
 }
@@ -725,20 +725,8 @@ video {
   height: 100%;
 }
 
-.h-\[180\]{
-  height: 180;
-}
-
-.h-\[180px\]{
-  height: 180px;
-}
-
-.h-\[210px\]{
-  height: 210px;
-}
-
-.h-\[400px\]{
-  height: 400px;
+.h-\[288px\]{
+  height: 288px;
 }
 
 .w-20{
@@ -817,16 +805,16 @@ video {
   justify-content: space-between;
 }
 
+.gap-10{
+  gap: 2.5rem;
+}
+
 .gap-2{
   gap: 0.5rem;
 }
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-10{
-  gap: 2.5rem;
 }
 
 .gap-x-10{
@@ -868,6 +856,14 @@ video {
 
 .gap-y-6{
   row-gap: 1.5rem;
+}
+
+.gap-y-8{
+  row-gap: 2rem;
+}
+
+.gap-y-20{
+  row-gap: 5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -945,11 +941,6 @@ video {
 .bg-zinc-500{
   --tw-bg-opacity: 1;
   background-color: rgb(113 113 122 / var(--tw-bg-opacity));
-}
-
-.bg-red-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .bg-cover{
@@ -1407,32 +1398,16 @@ body {
     height: 272px;
   }
 
-  .md\:h-\[352px\]{
-    height: 352px;
-  }
-
   .md\:h-\[336px\]{
     height: 336px;
   }
 
-  .md\:h-\[210px\]{
-    height: 210px;
-  }
-
-  .md\:h-\[288px\]{
-    height: 288px;
-  }
-
-  .md\:h-\[350px\]{
-    height: 350px;
+  .md\:h-\[368px\]{
+    height: 368px;
   }
 
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:text-4xl{
@@ -1520,12 +1495,12 @@ body {
     width: 70%;
   }
 
-  .lg\:grid-cols-4{
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:grid-rows-1{
@@ -1538,10 +1513,6 @@ body {
 
   .lg\:flex-col{
     flex-direction: column;
-  }
-
-  .lg\:gap-20{
-    gap: 5rem;
   }
 
   .lg\:gap-x-2{
@@ -1611,13 +1582,14 @@ body {
 }
 
 @media (min-width: 1280px){
-  .xl\:gap-20{
-    gap: 5rem;
-  }
-
   .xl\:gap-x-14{
     -moz-column-gap: 3.5rem;
          column-gap: 3.5rem;
+  }
+
+  .xl\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .xl\:text-base{
@@ -1625,9 +1597,16 @@ body {
     line-height: 1.5rem;
   }
 
-  .xl\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .xl\:text-\[20px\]{
+    font-size: 20px;
+  }
+
+  .xl\:text-\[22px\]{
+    font-size: 22px;
+  }
+
+  .xl\:text-\[24px\]{
+    font-size: 24px;
   }
 }
 
@@ -1638,9 +1617,5 @@ body {
 
   .\32xl\:h-\[400px\]{
     height: 400px;
-  }
-
-  .\32xl\:gap-20{
-    gap: 5rem;
   }
 }
