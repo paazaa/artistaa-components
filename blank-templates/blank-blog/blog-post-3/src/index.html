@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/output.css" />
+    <title>AP Project Blog Post-3</title>
+</head>
+<body>
+    <section id="hero-portfolio" class="hero">
+        <div
+            class="lg:px-0 relative bg-gray  py-14  pt-5  flex flex-col lg:flex-row justify-between"
+        >
+           <div class="container mx-auto ">
+            <!-- Navbar -->
+                <header class="absolute container px-6 lg:px-0 ">
+                    <nav class="">
+                        <div class="flex items-center justify-between">
+                            <h2 class="capitalize text-3xl md:text-4xl font-bold text-white">AProject</h2>
+                            <!-- NAV LINKS -->
+                            <div class="hidden md:flex gap-x-10 xl:gap-x-14">
+                                <a href="#about" class="navbar">About</a>
+                                <a href="#portfolio" class="navbar">Portfolio</a>
+                                <a href="#blog" class="navbar">Blog</a>
+                                <a href="#contact" class="navbar">Contact</a>
+                            </div>
+                            <a href="#" class="navbar-CTA hidden md:block">Contact Us</a>
+
+                            <!-- Hamburger icon -->
+                            <button
+                                id="menu-btn"
+                                class="block hamburger md:hidden focus:outline-none"
+                            >
+                                <span class="hamburger-top"></span>
+                                <span class="hamburger-middle"></span>
+                                <span class="hamburger-bottom"></span>
+                            </button>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="lg:hidden">
+                            <div
+                                id="menu"
+                                class="absolute z-20 flex-col items-center self-end text-blue hidden py-8 my-3 space-y-6 bg-zinc-500 text-grey text-sm font-sans w-[90%] sm:self-center drop-shadow-md rounded-b-3xl"
+                            >
+                                <a href="#about" class=" ">About</a>
+                                <a href="#portfolio" class=" ">Portfolio</a>
+                                <a href="#blog" class=" ">Blog</a>
+                                <a href="#contact" class=" ">Contact</a>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+        </div>
+    </section>
+    
+    <div id="blog-post"></div>
+    <div id="footer"></div>
+<script src="./js/index.js"></script>
+</body>
+</html>
