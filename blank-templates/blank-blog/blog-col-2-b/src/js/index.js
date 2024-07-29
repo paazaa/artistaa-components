@@ -8,8 +8,8 @@ function loadHTML(sectionId, filePath) {
 		.catch((error) => console.error('Error loading section:', error))
 }
 
-loadHTML('blog', 'sections/blog.html')
-loadHTML('footer', 'sections/footer.html')
+loadHTML('blog', 'sections/blog/blog.html')
+loadHTML('footer', 'sections/footer/footer.html')
 
 // hamburger menu toggler
 const btn = document.getElementById('menu-btn')

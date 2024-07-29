@@ -8,13 +8,13 @@ function loadHTML(sectionId, filePath) {
 		.catch((error) => console.error('Error loading section:', error))
 }
 
-loadHTML('about', 'sections/about.html')
-loadHTML('features', 'sections/features.html')
-loadHTML('portfolio', 'sections/portfolio.html')
-loadHTML('services', 'sections/services.html')
-loadHTML('team', 'sections/team.html')
-loadHTML('testimonials', 'sections/testimonials.html')
-loadHTML('footer', 'sections/footer.html')
+loadHTML('about', 'sections/about/about.html')
+loadHTML('features', 'sections/features/features.html')
+loadHTML('portfolio', 'sections/portfolio/portfolio.html')
+loadHTML('services', 'sections/services/services.html')
+loadHTML('team', 'sections/team/team.html')
+loadHTML('testimonials', 'sections/testimonials/testimonials.html')
+loadHTML('footer', 'sections/footer/footer.html')
 
 // hamburger menu toggler
 
