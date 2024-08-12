@@ -16,7 +16,7 @@ loadHTML('testimonials', 'sections/testimonials/testimonials.html')
 loadHTML('team', 'sections/team/team.html')
 loadHTML('blog', 'sections/blog/blog.html')
 loadHTML('connect', 'sections/connect/connect.html')
-loadHTML('footer', 'sections/footer/footer.html')
+loadHTML('footer', 'sections/Footer/footer.html')
 
 // hamburger menu toggler
 // hamburger menu toggler
