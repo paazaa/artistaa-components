@@ -5,6 +5,30 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Pazaa Agency</title>
 		<link rel="stylesheet" href="./css/output.css" />
+		<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+		<style>
+			@tailwind base;
+			@tailwind components;
+			@tailwind utilities;
+	
+			@layer base {
+				@screen xs { .xs\:text { font-size: 0.875rem; } }
+				@screen sm { .sm\:text { font-size: 1rem; } }
+				@screen md { .md\:text { font-size: 1.125rem; } }
+				@screen lg { .lg\:text { font-size: 1.25rem; } }
+				@screen xl { .xl\:text { font-size: 1.5rem; } }
+				@screen 2xl { .2xl\:text { font-size: 1.875rem; } }
+			}
+	
+			@layer utilities {
+				.font-inria-serif { font-family: 'Inria Serif', serif; }
+				.font-open-sans { font-family: 'Open Sans', sans-serif; }
+				.bg-primary { background-color: #131B42; }
+				.bg-primary-extra-light { background-color: #888CA0; }
+				.bg-secondary { background-color: #F87853; }
+				.text-grey { color: #333333; }
+			}
+		</style> 
 	</head>
 
 	<body>
