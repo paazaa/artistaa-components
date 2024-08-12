@@ -10,39 +10,74 @@
 			@tailwind base;
 			@tailwind components;
 			@tailwind utilities;
-	
+
 			@layer base {
-				@screen xs { .xs\:text { font-size: 0.875rem; } }
-				@screen sm { .sm\:text { font-size: 1rem; } }
-				@screen md { .md\:text { font-size: 1.125rem; } }
-				@screen lg { .lg\:text { font-size: 1.25rem; } }
-				@screen xl { .xl\:text { font-size: 1.5rem; } }
-				@screen 2xl { .2xl\:text { font-size: 1.875rem; } }
-			}
-	
-			@layer utilities {
-				.font-inria-serif { font-family: 'Inria Serif', serif; }
-				.font-open-sans { font-family: 'Open Sans', sans-serif; }
-				.bg-primary { background-color: #131B42; }
-				.bg-primary-extra-light { background-color: #888CA0; }
-				.bg-secondary { background-color: #F87853; }
-				.text-grey { color: #333333; }
+				@screen xs {
+					.xs\:text {
+						font-size: 0.875rem;
+					}
+				}
+				@screen sm {
+					.sm\:text {
+						font-size: 1rem;
+					}
+				}
+				@screen md {
+					.md\:text {
+						font-size: 1.125rem;
+					}
+				}
+				@screen lg {
+					.lg\:text {
+						font-size: 1.25rem;
+					}
+				}
+				@screen xl {
+					.xl\:text {
+						font-size: 1.5rem;
+					}
+				}
+				@screen 2xl {
+					.2xl\:text {
+						font-size: 1.875rem;
+					}
+				}
 			}
 
-			
-		</style> 
+			@layer utilities {
+				.font-inria-serif {
+					font-family: 'Inria Serif', serif;
+				}
+				.font-open-sans {
+					font-family: 'Open Sans', sans-serif;
+				}
+				.bg-primary {
+					background-color: #131b42;
+				}
+				.bg-primary-extra-light {
+					background-color: #888ca0;
+				}
+				.bg-secondary {
+					background-color: #f87853;
+				}
+				.text-grey {
+					color: #333333;
+				}
+			}
+		</style>
 	</head>
 
 	<body>
 		<!-- HERO SECTION -->
-		<section id="hero-pazaa-agency"
+		<section
+			id="hero-pazaa-agency"
 			class="relative hero lg:h-screen bg-no-repeat bg-top bg-cover"
 			style="background-image: url('./assets/bg-hero.svg')"
 		>
 			<img
 				src="./assets/hero.svg"
 				alt=""
-				class="hidden lg:inline absolute top-[20%] right-0 -bottom-4 object-cover  z-40 lg:w-[60%] xl:w-auto"
+				class="hidden lg:inline absolute top-[20%] right-0 -bottom-4 object-cover z-40 lg:w-[60%] xl:w-auto"
 			/>
 			<div
 				class="container mx-auto lg:px-0 relative pt-10 flex flex-col lg:flex-row justify-between"
@@ -51,7 +86,7 @@
 				<header class="absolute container px-6 lg:px-0">
 					<nav class="">
 						<div class="flex items-center justify-between">
-							<h2 class="uppercase text-3xl md:text-4xl font-bold">AGNCE</h2>
+							<h2 class="uppercase text-3xl md:text-4xl font-bold">AGNC</h2>
 							<!-- NAV LINKS -->
 							<div class="hidden md:flex gap-x-10 xl:gap-x-14">
 								<a href="#about" class="navbar">About</a>
@@ -90,11 +125,11 @@
 
 				<!-- HERO CONTENT -->
 				<div
-					class="relative z-0 px-6 lg:px-0 w-full lg:w-1/2 flex flex-col justify-center sm:py-12 lg:flex-row lg:justify-between mt-10  lg:mt-20"
+					class="relative z-0 px-6 lg:px-0 w-full lg:w-1/2 flex flex-col justify-center sm:py-12 lg:flex-row lg:justify-between mt-10 lg:mt-20"
 				>
 					<!-- Hero heading -->
 					<div
-						class="flex w-full lg:w-3/4 mt-14 md:mt-20  pr-30  flex-col mb-4 py-6 text-center rounded-sm lg:text-left"
+						class="flex w-full lg:w-3/4 mt-14 md:mt-20 pr-30 flex-col mb-4 py-6 text-center rounded-sm lg:text-left"
 					>
 						<p
 							class="mt-2 mb-8 text-base lg:text-lg text-secondary font-sans font-medium tracking-wider sm:mb-8 uppercase"
@@ -128,15 +163,15 @@
 			</div>
 		</section>
 		<!-- END OF HERO SECTION -->
-		 <div id="services"></div>
-		 <div id="kickoff"></div>
-		 <div id="features"></div>
-		 <div id="portfolio"></div>
-		 <div id="testimonials"></div>
-		 <div id="team"></div>
-		 <div id="blog"></div>
-		 <div id="connect"></div>
-		 <div id="footer"></div>
+		<div id="services"></div>
+		<div id="kickoff"></div>
+		<div id="features"></div>
+		<div id="portfolio"></div>
+		<div id="testimonials"></div>
+		<div id="team"></div>
+		<div id="blog"></div>
+		<div id="connect"></div>
+		<div id="footer"></div>
 		<script src="js/index.js"></script>
 	</body>
 </html>
